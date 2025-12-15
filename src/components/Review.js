@@ -50,11 +50,10 @@ const Review = () => {
       <p className="info">{text}</p>
 
       <div className="button-container">
-        <button className="prev-btn" onClick={prevReview}>Prev</button>
-        <button className="next-btn" onClick={nextReview}>Next</button>
+        <button className="prev-btn" onClick={prevReview}>previous </button>
+        <button className="next-btn" onClick={nextReview}>next</button>
       </div>
-
-      <button onClick={randomReview}>Surprise Me</button>
+      <button className="random-btn" onClick={randomReview}>surprise me</button>
     </article>
   );
 };
